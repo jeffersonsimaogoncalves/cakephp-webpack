@@ -23,7 +23,7 @@ Load plugin
 Plugin::load('GrandFelix/Webpack', ['bootstrap' => true, 'routes' => false]);
 ```
 
-For now, copy webpack.config.default.js and webpack.packages.json from Webpack plugin to your main App folder (not ./src) and rename it to webpack.config.js and packages.json. If you already have packages.json file than add webpack dependencies to it...
+For now, copy webpack.config.default.js and webpack.packages.json from Webpack plugin to your main App folder (not ./src) and rename it to webpack.config.js and packages.json. If you already have package.json file than add webpack dependencies to it...
 
 To install webpack go to app root folder and run next command:
 
